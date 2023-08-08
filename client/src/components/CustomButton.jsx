@@ -9,14 +9,14 @@ const CustomButton = ({type, title, handleClick, customStyles}) => {
   const generateStyle = (type) => {
     if(type === 'filled'){
       return {
-        backgroundColor: '#48d6ef',
+        backgroundColor: '#D44D5C',
         color:'#fff'
       }
     }
   }
   return (
     <button 
-    className={`px-2 py-2.5 flex-1 rounded-md ${customStyles}`}
+    className={`w-44 px-2 py-3 rounded-md ${customStyles}`}
     style={generateStyle(type)}
     onClick={handleClick}>
       {title}

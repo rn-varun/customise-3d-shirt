@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #F5E9E2;
+}
+
 html {
   font-family: "Inter", sans-serif;
 }
@@ -28,7 +32,7 @@ html {
 }
 
 .head-text {
-  @apply xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] font-black text-black;
+  @apply xl:text-[6rem] text-[3rem] xl:leading-[7rem] leading-[4rem] font-black text-['#0B0014'];
 }
 
 .download-btn {
