@@ -32,9 +32,9 @@ const Home = () => {
                   sequence={[
                     "Welcome", // Types 'One'
                     500, // Waits 1s
-                    "Unleash your designer", // Deletes 'One' and types 'Two'
+                    "Customise shirt today", // Deletes 'One' and types 'Two'
                     500, // Waits 2s
-                    "Create your own design",
+                    "with this 3D tool",
                     500, // Types 'Three' without deleting 'Two'
                     "Start right away",
                     500,
