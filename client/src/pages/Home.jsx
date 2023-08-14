@@ -27,15 +27,15 @@ const Home = () => {
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h2 className="head-text">
+              <h2 className="head-text text-white">
                 <TypeAnimation
                   sequence={[
-                    "Welcome", // Types 'One'
-                    500, // Waits 1s
-                    "Customise shirt today", // Deletes 'One' and types 'Two'
-                    500, // Waits 2s
+                    "Welcome", 
+                    500,
+                    "Create custom shirt", 
+                    500, 
                     "with this 3D tool",
-                    500, // Types 'Three' without deleting 'Two'
+                    500,
                     "Start right away",
                     500,
                   ]}
@@ -50,7 +50,7 @@ const Home = () => {
               </h1> */}
             </motion.div>
             <motion.div className="flex flex-col gap-5">
-              <p className="max-w-md font-normal text-gray-600">
+              <p className="max-w-md font-normal text-white">
                 Create your customised shirt today using this 3D customisation
                 tool. <strong>Unleash your designer.</strong>
               </p>
